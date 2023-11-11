@@ -14,7 +14,7 @@ export const Card = ({ title, description, buttonsName }) => {
 
         <div className="flex justify-around">
           {buttonsName.map(({ name }) => (
-            <Button>{name}</Button>
+            <Button key={name}>{name}</Button>
           ))}
 
         </div>
