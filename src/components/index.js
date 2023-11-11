@@ -1,3 +1,4 @@
+export * from './Card'
 export * from './Image'
 export * from './Button'
 export * from './Description'
